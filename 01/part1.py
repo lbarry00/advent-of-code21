@@ -14,7 +14,6 @@ def countIncreases(input):
         if (current > prev):
             numIncreases += 1
         prev = current
-        timesRan += 1
 
     return numIncreases
 
